@@ -92,18 +92,22 @@ extension FilterViewController: UITableViewDelegate, UITableViewDataSource {
     }
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        
-        if !(indexPath.section == viewModel.bannedPaths()) {
-            viewModel.assembleSearchString(section: indexPath.section, row: indexPath.row)
+        if !(indexPath.section == viewModel.bannedPaths()) {            viewModel.assembleSearchString(section: indexPath.section, row: indexPath.row)
+            if indexPath.section == 0 {
+                guard let paths = tableView.indexPathsForSelectedRows else {return}
+                for path in paths {
+                    if path.section == indexPath.section {
+                        if path.row != indexPath.row {
+                            tableView.deselectRow(at: path, animated: true)
+                        }
+                    }
+                }
+            }
         } else {
             guard let paths = tableView.indexPathsForSelectedRows else {return}
             for path in paths {
                 if path.section == viewModel.bannedPaths() {
                     tableView.deselectRow(at: path, animated: true)
-                } else if path.section == 0 {
-                    if path.row != indexPath.row {
-                        tableView.deselectRow(at: path, animated: true)
-                    }
                 }
             }
         }
