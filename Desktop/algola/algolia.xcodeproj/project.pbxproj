@@ -1,0 +1,463 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		22D3E67A22429A5100B65E6B /* FilterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22D3E67922429A5100B65E6B /* FilterViewController.swift */; };
+		77E92603B3A381EE8D50E0A4 /* libPods-algolia.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 72667D0CF8A4883B4FD27F4C /* libPods-algolia.a */; };
+		A2CC1DFD220B75DF00E3657C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2CC1DFC220B75DF00E3657C /* AppDelegate.swift */; };
+		A2CC1DFF220B75DF00E3657C /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2CC1DFE220B75DF00E3657C /* FeedViewController.swift */; };
+		A2CC1E02220B75DF00E3657C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A2CC1E00220B75DF00E3657C /* Main.storyboard */; };
+		A2CC1E04220B75E000E3657C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A2CC1E03220B75E000E3657C /* Assets.xcassets */; };
+		A2CC1E07220B75E000E3657C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A2CC1E05220B75E000E3657C /* LaunchScreen.storyboard */; };
+		A2CC1E0F220B79F100E3657C /* Listing.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2CC1E0E220B79F100E3657C /* Listing.swift */; };
+		A2CC1E12220B7A5700E3657C /* FeedViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2CC1E11220B7A5700E3657C /* FeedViewModel.swift */; };
+		A2CC1E15220B7CD200E3657C /* Algolia.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2CC1E14220B7CD200E3657C /* Algolia.swift */; };
+		A2CC1E17220B86B300E3657C /* ListingTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2CC1E16220B86B300E3657C /* ListingTableViewCell.swift */; };
+		A4F7997423EA223B008B4B4A /* ImageResizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4F7997323EA223B008B4B4A /* ImageResizer.swift */; };
+		A4F7997623EA2274008B4B4A /* Photo.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4F7997523EA2274008B4B4A /* Photo.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		22D3E67922429A5100B65E6B /* FilterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterViewController.swift; sourceTree = "<group>"; };
+		281454B6131B2D8194C697E7 /* Pods-algolia.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-algolia.debug.xcconfig"; path = "Pods/Target Support Files/Pods-algolia/Pods-algolia.debug.xcconfig"; sourceTree = "<group>"; };
+		72667D0CF8A4883B4FD27F4C /* libPods-algolia.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-algolia.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A2CC1DF9220B75DF00E3657C /* algolia.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = algolia.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A2CC1DFC220B75DF00E3657C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A2CC1DFE220B75DF00E3657C /* FeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewController.swift; sourceTree = "<group>"; };
+		A2CC1E01220B75DF00E3657C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A2CC1E03220B75E000E3657C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A2CC1E06220B75E000E3657C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A2CC1E08220B75E000E3657C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A2CC1E0E220B79F100E3657C /* Listing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Listing.swift; sourceTree = "<group>"; };
+		A2CC1E11220B7A5700E3657C /* FeedViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewModel.swift; sourceTree = "<group>"; };
+		A2CC1E14220B7CD200E3657C /* Algolia.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Algolia.swift; sourceTree = "<group>"; };
+		A2CC1E16220B86B300E3657C /* ListingTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListingTableViewCell.swift; sourceTree = "<group>"; };
+		A4F7997323EA223B008B4B4A /* ImageResizer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageResizer.swift; sourceTree = "<group>"; };
+		A4F7997523EA2274008B4B4A /* Photo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Photo.swift; sourceTree = "<group>"; };
+		D993E716D836B54AFEAD7E4C /* Pods-algolia.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-algolia.release.xcconfig"; path = "Pods/Target Support Files/Pods-algolia/Pods-algolia.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A2CC1DF6220B75DF00E3657C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				77E92603B3A381EE8D50E0A4 /* libPods-algolia.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1FA9BAFD7F8CFB37DA43E2C6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				72667D0CF8A4883B4FD27F4C /* libPods-algolia.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		22D3E6772242992600B65E6B /* Feed */ = {
+			isa = PBXGroup;
+			children = (
+				A2CC1DFE220B75DF00E3657C /* FeedViewController.swift */,
+				A2CC1E11220B7A5700E3657C /* FeedViewModel.swift */,
+				A2CC1E16220B86B300E3657C /* ListingTableViewCell.swift */,
+			);
+			path = Feed;
+			sourceTree = "<group>";
+		};
+		22D3E67822429A0D00B65E6B /* Filter */ = {
+			isa = PBXGroup;
+			children = (
+				22D3E67922429A5100B65E6B /* FilterViewController.swift */,
+			);
+			path = Filter;
+			sourceTree = "<group>";
+		};
+		7BEAF221F3CA70454CB786A9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				281454B6131B2D8194C697E7 /* Pods-algolia.debug.xcconfig */,
+				D993E716D836B54AFEAD7E4C /* Pods-algolia.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		A2CC1DF0220B75DF00E3657C = {
+			isa = PBXGroup;
+			children = (
+				A2CC1DFB220B75DF00E3657C /* algolia */,
+				A2CC1DFA220B75DF00E3657C /* Products */,
+				7BEAF221F3CA70454CB786A9 /* Pods */,
+				1FA9BAFD7F8CFB37DA43E2C6 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		A2CC1DFA220B75DF00E3657C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A2CC1DF9220B75DF00E3657C /* algolia.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A2CC1DFB220B75DF00E3657C /* algolia */ = {
+			isa = PBXGroup;
+			children = (
+				A2CC1DFC220B75DF00E3657C /* AppDelegate.swift */,
+				22D3E6772242992600B65E6B /* Feed */,
+				22D3E67822429A0D00B65E6B /* Filter */,
+				A2CC1E13220B7A8C00E3657C /* Storyboards */,
+				A2CC1E10220B7A2200E3657C /* Model */,
+				A2CC1E03220B75E000E3657C /* Assets.xcassets */,
+				A2CC1E08220B75E000E3657C /* Info.plist */,
+				A2CC1E14220B7CD200E3657C /* Algolia.swift */,
+				A4F7997223EA2234008B4B4A /* Util */,
+			);
+			path = algolia;
+			sourceTree = "<group>";
+		};
+		A2CC1E10220B7A2200E3657C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				A2CC1E0E220B79F100E3657C /* Listing.swift */,
+				A4F7997523EA2274008B4B4A /* Photo.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		A2CC1E13220B7A8C00E3657C /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				A2CC1E00220B75DF00E3657C /* Main.storyboard */,
+				A2CC1E05220B75E000E3657C /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		A4F7997223EA2234008B4B4A /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				A4F7997323EA223B008B4B4A /* ImageResizer.swift */,
+			);
+			path = Util;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A2CC1DF8220B75DF00E3657C /* algolia */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A2CC1E0B220B75E000E3657C /* Build configuration list for PBXNativeTarget "algolia" */;
+			buildPhases = (
+				7476301818AA9DC412E1DCAD /* [CP] Check Pods Manifest.lock */,
+				A2CC1DF5220B75DF00E3657C /* Sources */,
+				A2CC1DF6220B75DF00E3657C /* Frameworks */,
+				A2CC1DF7220B75DF00E3657C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = algolia;
+			productName = algolia;
+			productReference = A2CC1DF9220B75DF00E3657C /* algolia.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A2CC1DF1220B75DF00E3657C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = grailed;
+				TargetAttributes = {
+					A2CC1DF8220B75DF00E3657C = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = A2CC1DF4220B75DF00E3657C /* Build configuration list for PBXProject "algolia" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A2CC1DF0220B75DF00E3657C;
+			productRefGroup = A2CC1DFA220B75DF00E3657C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A2CC1DF8220B75DF00E3657C /* algolia */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A2CC1DF7220B75DF00E3657C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2CC1E07220B75E000E3657C /* LaunchScreen.storyboard in Resources */,
+				A2CC1E04220B75E000E3657C /* Assets.xcassets in Resources */,
+				A2CC1E02220B75DF00E3657C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		7476301818AA9DC412E1DCAD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-algolia-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A2CC1DF5220B75DF00E3657C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22D3E67A22429A5100B65E6B /* FilterViewController.swift in Sources */,
+				A2CC1E17220B86B300E3657C /* ListingTableViewCell.swift in Sources */,
+				A2CC1DFF220B75DF00E3657C /* FeedViewController.swift in Sources */,
+				A4F7997623EA2274008B4B4A /* Photo.swift in Sources */,
+				A2CC1E0F220B79F100E3657C /* Listing.swift in Sources */,
+				A4F7997423EA223B008B4B4A /* ImageResizer.swift in Sources */,
+				A2CC1E12220B7A5700E3657C /* FeedViewModel.swift in Sources */,
+				A2CC1E15220B7CD200E3657C /* Algolia.swift in Sources */,
+				A2CC1DFD220B75DF00E3657C /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A2CC1E00220B75DF00E3657C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A2CC1E01220B75DF00E3657C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A2CC1E05220B75E000E3657C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A2CC1E06220B75E000E3657C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A2CC1E09220B75E000E3657C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A2CC1E0A220B75E000E3657C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A2CC1E0C220B75E000E3657C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 281454B6131B2D8194C697E7 /* Pods-algolia.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4KAP7RVPUM;
+				INFOPLIST_FILE = algolia/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.grailed.algolia;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A2CC1E0D220B75E000E3657C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D993E716D836B54AFEAD7E4C /* Pods-algolia.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4KAP7RVPUM;
+				INFOPLIST_FILE = algolia/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.grailed.algolia;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A2CC1DF4220B75DF00E3657C /* Build configuration list for PBXProject "algolia" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A2CC1E09220B75E000E3657C /* Debug */,
+				A2CC1E0A220B75E000E3657C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A2CC1E0B220B75E000E3657C /* Build configuration list for PBXNativeTarget "algolia" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A2CC1E0C220B75E000E3657C /* Debug */,
+				A2CC1E0D220B75E000E3657C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A2CC1DF1220B75DF00E3657C /* Project object */;
+}

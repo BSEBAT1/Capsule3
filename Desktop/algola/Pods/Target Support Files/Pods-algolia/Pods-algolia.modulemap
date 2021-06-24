@@ -1,0 +1,6 @@
+module Pods_algolia {
+  umbrella header "Pods-algolia-umbrella.h"
+
+  export *
+  module * { export * }
+}
